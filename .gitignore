@@ -2,4 +2,4 @@ venv/
 .idea/
 *.pyc
 .env
-.env_docker
+__pycache__

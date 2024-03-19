@@ -1,7 +1,8 @@
-from sqlalchemy import Integer, String, Column, Boolean
+from sqlalchemy import Boolean, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
+
 
 class Friend(Base):
     __tablename__ = 'friend'
